@@ -1,0 +1,11 @@
+.Backdrop {
+	width: 800px;
+    height: 800px;
+    position: fixed;
+    left: 0;
+    margin: auto;
+    z-index: 100;
+    top: 0;
+    background-color: rgba(0,0,0.0);
+    opacity: 0.9;
+}
