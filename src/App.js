@@ -4,7 +4,7 @@ import BurgerBuilder from "./containers/BurgerBuilder/BurgerBuilder";
 
 class App extends Component {
   render() {
-    return (<div> Toolbar sidebar backdrop
+    return (<div>
               <Layout>
                 <BurgerBuilder></BurgerBuilder>
               </Layout>

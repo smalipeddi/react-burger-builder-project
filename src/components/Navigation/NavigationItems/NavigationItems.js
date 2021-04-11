@@ -3,10 +3,10 @@ import NavigationItem from '../NavigationItem/NavigationItem';
 import classes from "./NavigationItems.css";
 
 
-const navigationItems = () => (
+const navigationItems = (props) => (
 	<ul className={classes.NavigationItems}>
-		<NavigationItem Link="/" > Burger Builder </NavigationItem>
-		<NavigationItem Link="/"> Checkout </NavigationItem>
+		<NavigationItem link="/" active> Burger Builder </NavigationItem>
+		<NavigationItem link="/"> Checkout </NavigationItem>
 	</ul>
 );
 
